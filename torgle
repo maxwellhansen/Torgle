@@ -5,4 +5,4 @@
 torgle_path="torgle.py"
 torgle_log="torgle.log"
 
-nohup ./$torgle_path &> $torgle_log &
+nohup torsocks ./$torgle_path &> $torgle_log &
