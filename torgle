@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Script to start torgle
+
+torgle_path="torgle.py"
+torgle_log="torgle.log"
+
+nohup ./$torgle_path &> $torgle_log &
